@@ -548,6 +548,32 @@
     border-radius:16px;
   }
 
+  .cert-thumb{
+    display:inline-flex;
+    flex-direction:column;
+    gap:8px;
+    margin-top:14px;
+    max-width:260px;
+    font-size:13.5px;
+    font-weight:600;
+  }
+
+  .cert-thumb img{
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    border:1px solid var(--border);
+    transition:border-color .15s ease;
+  }
+
+  .cert-thumb:hover{
+    text-decoration:none;
+  }
+
+  .cert-thumb:hover img{
+    border-color:var(--blue-line);
+  }
+
   footer{
     background:var(--footer-bg);
     color:#8FA3C4;
@@ -808,7 +834,7 @@
           <div class="t-item">
 
             <div class="t-date">
-              Sep 2026 – Oct 2026 · In Progress
+              6 Sep 2026 – 12 Oct 2026 · Completed
             </div>
 
             <div class="t-role">
@@ -823,7 +849,21 @@
               <li>
                 Selected for the Data Analysis Internship Track under the NexAfrica Internship Program, applying analytical problem-solving in a live business environment.
               </li>
+
+              <li>
+                Successfully completed all programme requirements and was awarded a Certificate of Internship Completion (28 October 2026).
+              </li>
             </ul>
+
+            <a class="cert-thumb"
+               href="assets/nexafrica-internship-certificate.jpg"
+               target="_blank"
+               rel="noopener">
+              <img src="assets/nexafrica-internship-certificate.jpg"
+                   alt="NexAfrica Certificate of Internship Completion awarded to Diya Lakha for the Data Analysis internship"
+                   loading="lazy">
+              <span>View internship certificate →</span>
+            </a>
 
           </div>
 
